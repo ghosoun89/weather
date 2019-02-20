@@ -3,7 +3,9 @@ import Titles from './Components/Titles';
 import Form from './Components/Form';
 import Weather from "./Components/Weather";
 
-const API_key = "b2a7226a9e309a61610678d8bb264cac"
+const API_key = "b2a7226a9e309a61610678d8bb264cac";
+
+
 
 class App extends React.Component {
   state = {
@@ -47,6 +49,7 @@ class App extends React.Component {
 
     }
   }
+  
   render() {
     return (
       <div>
@@ -78,6 +81,8 @@ class App extends React.Component {
     )
   }
 }
+
+
 export default App;
 
 
